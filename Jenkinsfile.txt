@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/YOUR_USERNAME/ml-ci-cd-project.git'
+                git 'https://github.com/taimoor-543/ml-ci-cd-project.git'
             }
         }
         stage('Build Docker Image') {
